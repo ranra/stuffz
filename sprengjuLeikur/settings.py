@@ -23,4 +23,15 @@ BK_COLOR = LIGHT_GREY
 
 WALL_IMG = "tile_69.png"
 
+
+#Player settings
+PLAYER_IMG = "manBlue_hold.png"
 PLAYER_SPEED = 50
+
+
+#bomb settings
+
+BOMB_IMG = "bomb.png"
+BOMB_RADIUS = pg.Rect(0,0, 5*TILESIZE,5*TILESIZE)
+BOMB_FUSE = 2000
+EXPLOSION ="explosion3.png"
